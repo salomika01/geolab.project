@@ -471,8 +471,12 @@
 
     .sec1,
     .sec2{
-      margin:0  20px 20px;
+      margin: 20px 30px;
         flex-direction: column;
+    }
+
+    .sec2{
+        margin-top: 250px;
     }
 
     .agwera{
@@ -491,7 +495,13 @@
 
     .shop-button{
       
-        margin-left: 140px;
+        margin-left: 120px;
+    }
+
+
+    .popular-recipies{
+        flex-direction: column;
+      padding-left: 60px;
     }
     
 
