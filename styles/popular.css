@@ -1,0 +1,252 @@
+    
+nav{
+  
+    width: 100%;
+    z-index: 998;
+    height: 65px;
+    line-height: 65px;
+   
+
+  
+}
+
+ .salo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    max-width: 1250px;
+    padding: 0 30px;
+    margin: auto;
+    background:  #24262b;
+
+}
+
+ .salo .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-right: 30px;
+  
+}
+
+
+
+
+.salo .nav-links{
+    display: inline-flex;
+    
+}
+
+.nav-links li {
+    list-style: none;
+   
+    
+}
+
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+   margin: 5px 16px;
+    font-weight: 500;
+    
+   
+   
+    
+}
+
+.salo ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(221, 71, 12);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.salo ul li:hover::after {
+    width: 100%;
+}
+
+
+
+.nav-links li:hover .mega-box {
+    opacity: 1;
+    visibility: visible;
+    top: 75px;
+   
+    transition: 0.5s;
+    padding-right: 30px;
+    padding-left: 0px;
+
+}
+
+   
+
+
+
+.mega-box{
+    position: absolute;
+    top: 86px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 998;
+  
+   
+}
+    
+
+
+.mega-box .content{
+    background-color:#24262b;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+   
+}
+
+.content .row {
+    width: calc(25%-30px);
+    line-height: 30px;
+
+}
+
+.content .row img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+   padding-top: 10px;
+    padding-left: 13px;
+   }
+
+
+ .mega-links{
+    border-left: 1px solid rgba(49, 50, 55, 0.7);
+    
+ }
+   
+.row .mega-links li {
+    padding: 5px 20px;
+}
+
+.row .mega-links li a {
+    padding: 0 20px;
+    display: block;
+    color: white;
+    font-size: 17px;
+}
+
+.search-bar{
+    height: 25px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.search-bar::placeholder{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-left: 15px;
+   
+    font-weight: 500;
+}
+
+.search-bar:hover{
+    background: white;
+   
+   
+    
+}
+
+.search-bar:hover::placeholder
+{color: black;
+   padding-left: 0px;
+  
+    
+}
+
+.search-icon{
+    color: white;
+   position: absolute;
+  top:20px;
+  right: 138px;
+   font-size: 12px;
+  
+}
+
+
+.mega-links{
+    border-left: 1px solid rgba(52, 52, 58, 0.7);
+    
+ }
+
+
+.wrapper ul li::after{
+    background:white;
+}
+
+.mega-box .content{
+    background:  #24262b;
+   margin-top: 20px;
+
+}
+
+
+/* pupkin */
+
+
+.conteiner{
+    padding:40px 10px;
+    width: 100%;
+}
+
+.ppk img{
+    height: 400px;
+    width: 360px;
+    object-fit: cover;
+    object-position: center;
+    padding: 5px;
+    
+  
+}
+
+.ppk{
+    margin-left: 30px ;
+  
+}
+
+.conteiner p{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 30px;
+    line-height: 24px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:700px){
+    nav{
+        display: none;
+    }
+    
+   
+}
