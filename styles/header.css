@@ -144,6 +144,7 @@ nav .wrapper{
 
 .search{
     position: relative;
+    margin: auto;
 }
 
 
@@ -168,7 +169,9 @@ nav .wrapper{
 }
 
 .search-bar:hover{
-    background: white;  
+    background: white;
+    padding-left: 25px;  
+  
 }
 
 
@@ -196,14 +199,6 @@ nav .wrapper{
     color: black;
     left: 10px;
 }
-
-
-
-
-
-
-
-
 
 
 /* walpaper css */
