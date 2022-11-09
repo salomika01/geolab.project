@@ -89,7 +89,7 @@ nav{
 
 .mega-box{
     position: absolute;
-    top: 86px;
+    top: 90px;
     left: 0;
     width: 100%;
     opacity: 0;
@@ -143,48 +143,6 @@ nav{
     font-size: 17px;
 }
 
-.search-bar{
-    height: 25px;
-    background: transparent;
-    border: 2px solid white;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.5s;
-    
-}
-
-.search-bar::placeholder{
-    text-align: center;
-    color: white;
-    font-size: 15px;
-    padding-left: 15px;
-   
-    font-weight: 500;
-}
-
-.search-bar:hover{
-    background: white;
-   
-   
-    
-}
-
-.search-bar:hover::placeholder
-{color: black;
-   padding-left: 0px;
-  
-    
-}
-
-.search-icon{
-    color: white;
-   position: absolute;
-  top:20px;
-  right: 138px;
-   font-size: 12px;
-  
-}
-
 
 .mega-links{
     border-left: 1px solid rgba(52, 52, 58, 0.7);
@@ -198,9 +156,64 @@ nav{
 
 .mega-box .content{
     background:  #24262b;
-   margin-top: 20px;
+   margin-top: 30px;
 
 }
+
+
+.search{
+    position: relative;
+    margin: auto;
+}
+
+
+
+.search-bar{
+    height: 25px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 994;
+    
+}
+
+.search-bar::placeholder{
+    text-align: center;
+    color: white;
+    font-size: 15px; 
+    font-weight: 500;
+}
+
+.search-bar:hover{
+    background: white;
+   
+  
+}
+
+
+
+.search-bar:hover::placeholder
+{width: 0;
+   
+   
+    
+}
+
+
+
+.search-icon i{
+    color:white;
+  position: absolute;
+  top: 45px;
+ right:190px;
+ font-size: 12px;
+ transition: 0.5s;
+   
+}
+
+
 
 
 /* pupkin */

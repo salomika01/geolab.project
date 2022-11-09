@@ -1,1 +1,413 @@
-@media(max-width:)
+@media(max-width:1550px){
+    nav {
+        width: 100%;
+        align-items: center;
+        margin: auto;
+    }
+
+
+
+}
+
+@media(max-width:1350px){
+    nav {
+        width: 100%;
+        align-items: center;
+        margin: auto;
+    }
+
+
+
+}
+
+@media(max-width:1250px){
+
+    .main-dish,
+    .our-program,
+    .book-konteiner,
+    .popular-recipies,
+    .swt-t,
+    .cource-section,
+    .footer
+    {
+       
+    width: 100%;
+ }
+
+
+ .search i{
+    color:white;
+    font-size: 12px;
+    position: absolute;
+    top: 28px;
+   left: 15%;
+   transition: 0.6s;
+   
+}
+
+
+ .campus{
+    width: 50%;
+    margin:auto;
+
+ }
+
+ .cource-section{
+    margin: 0;
+ }
+
+
+
+ .main-dish{
+    min-height: 80vh;
+ }
+
+    nav {
+        width: 100%;
+        align-items: center;
+        margin: auto;
+    }
+
+
+    
+    .wrapper .logo a{
+        text-decoration: none;
+      padding-left: 10px;
+        font-size: 20px;
+        padding-right: 30px;
+      
+    }
+
+    .pastry{
+        height: 150px;
+        width: 150px;
+    }
+
+   
+   
+    
+
+
+
+}
+
+
+
+
+
+
+@media(max-width:1170px){
+
+    
+
+    nav {
+        width: 100%;}
+
+        .wrapper .logo a{
+            text-decoration: none;
+          
+            font-size: 20px;
+            padding-right: 30px;
+          
+        }
+
+        .search{
+           
+            width: 100%;
+            margin: auto;
+
+        }
+
+
+       
+    
+
+     .pastry{
+        width: 170px;
+        height: 170px;
+     }
+
+    
+}
+
+
+
+@media(max-width:820px){
+    nav {
+        width: 100%;
+    }
+
+    .wrapper{
+        flex-direction: column;
+        padding-top: 20px;
+       
+    }
+
+   
+
+
+    .mega-box .content{
+     flex-wrap: wrap;
+   
+       
+    }
+
+   
+    
+    .wrapper .logo a{
+        text-decoration: none;
+        color:white;
+        font-size: 20px;
+        padding-right: 30px;
+      
+    }
+    .our-program{
+        height: 540px;
+    }
+
+    .picture-section{
+        margin-top: 50px;
+    }
+    .picture-line1 img{
+        height: 161px;
+        width: 161px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    
+    .main-picture{
+    
+       width: 500px;
+       height: 230px;
+       object-fit: cover;
+       object-position: center;
+       
+        
+    
+      
+    }
+
+    .book-konteiner{
+        height: 600px;
+    }
+
+    .sec1{
+        margin-left: 150px;
+    
+    }
+
+    .sec2{
+        margin-top: 100px;
+
+    }
+
+    .book-shop-btn{
+      margin-top: 30px;
+
+    }
+   .shop-button{
+  margin-left: 350px;
+
+
+    }
+
+    .layer h3{
+        font-size: 15px;
+    }
+  .students-sec{
+    margin: 0;
+  }
+
+    .pastry{
+        width: 130px;
+        height: 130px;
+     }
+
+    
+}
+
+
+
+       
+@media(max-width:700px){
+
+    .main-dish,
+    .our-program,
+    .book-konteiner,
+    .book-konteiner,
+    .popular-recipies,
+    .swt-t,
+    .cource-section,
+    .campus,
+    .students-sec,
+    .footer
+    {
+        width: 65%;
+    }
+
+            
+            nav{
+                display: none;
+            }
+
+            .our-program{
+                flex-direction: column;
+                height: 900px;
+            
+            }
+         .picture-section{
+        margin-left: 30px;
+         }
+        
+
+            .picture-line1 img{
+                height: 130px;
+                width: 130px;
+                object-fit: cover;
+                object-position: center;
+            }
+            
+            
+            .main-picture{
+            
+            width: 200px;
+            height: 130px;
+            object-fit: cover;
+            object-position: center;
+            
+                
+            
+            
+            }
+          .book-konteiner{
+        height: 1000px;  
+                }
+
+            .book,
+            .shef{
+            height: 100px;
+            width: 100px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 100px;
+            margin-top: 30px;
+            }
+
+        .sec1{
+            display: flex;
+            margin-left: 50px;
+            height: 150px;
+            
+        }
+
+        .sec2{
+            margin-top: 250px;
+        }
+
+
+        .shop-button{
+         
+           margin-left: 150px;
+           background: #FFCDD2;
+            padding: 14px 32px;
+            color: black;
+            text-decoration: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        
+        .popular-recipies{
+            flex-direction: column;
+        
+        }
+
+        .conteiner{
+            align-items: center;
+        }
+
+
+        .pastry{
+    
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 1px;
+            
+        }
+
+        .konteiner{
+        flex-direction: column;
+        
+        
+        }
+
+        
+            .students-sec .row{
+              
+                display: flex;
+                flex-direction: column;
+                margin-left: 40px;
+            
+            }
+
+            .footer .row{
+                flex-direction: column;
+
+            }
+
+            .layer h3{
+                font-size: 28px;
+            }
+
+            .campus{
+                margin-left: 10px;
+            }
+
+            .campus .row{
+                flex-direction: column;
+            }
+
+           
+ }
+
+
+ @media(max-width:380px){
+
+    .main-dish{
+        min-height: 50vh;
+    }
+
+    .our-program{
+        height: 1400px;
+    }
+    .book-konteiner{
+    
+       display: none;
+        
+    }
+    
+    
+    .
+    
+    
+ }
+
+   
+
+
+      
+
+
+
+
+    
+
+    
+    
+
+   
