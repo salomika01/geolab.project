@@ -378,6 +378,24 @@
 
  @media(max-width:380px){
 
+
+
+    
+    .main-dish,
+    .our-program,
+    .book-konteiner,
+    .book-konteiner,
+    .popular-recipies,
+    .swt-t,
+    .cource-section,
+   
+    .students-sec,
+    .footer
+    {
+        width: 100%;
+    }
+
+
     .main-dish{
         min-height: 50vh;
     }
@@ -390,9 +408,14 @@
        display: none;
         
     }
+
+
+    .campus{
+       margin: auto;
+    }
     
     
-    .
+    
     
     
  }
